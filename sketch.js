@@ -1,7 +1,14 @@
+
+
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(500,400);
+  preload();
 }
 
 function draw() {
-  background(220);
+  background(streetImage);
+  showCow();
+  moveCow();
 }
+
