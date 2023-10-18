@@ -1,4 +1,5 @@
-let yCow = 368, xCow = 30;
+let cowInitialPosition = [30, 372];
+let yCow = cowInitialPosition[1], xCow = cowInitialPosition[0];
 // xCow = constrain(xCow, 0, xLim);
 // yCow = constrain(yCow, 0, yLim);
 
